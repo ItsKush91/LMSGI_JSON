@@ -1,0 +1,144 @@
+{
+  "pokemons": [
+    {
+      "id": 1,
+      "nom": "Bulbasaur",
+      "tipus": ["planta", "verí"],
+      "pes": "6.9 kg",
+      "altura": "0.7 m",
+      "estadistiques": {
+        "velocitat": 45,
+        "fortalesa": 49,
+        "precisio": 65,
+        "resistencia": 65
+      },
+      "moviments": [
+        {
+          "nom": "Placatge",
+          "descripcio": "Un atac físic bàsic que causa dany moderat",
+          "potencia": 40,
+          "contacte": true
+        },
+        {
+          "nom": "Fulla navalla",
+          "descripcio": "Ataca amb fulles esmolades, alta probabilitat de cop crític",
+          "potencia": 55,
+          "contacte": false
+        },
+        {
+          "nom": "Pols somnífer",
+          "descripcio": "Allibera pols que pot adormir l'oponent",
+          "potencia": 0,
+          "contacte": false
+        }
+      ],
+      "imatge": "https://www.wikidex.net/wiki/Bulbasaur#/media/Archivo:Bulbasaur.png",
+      "evolucions": [2, 3]
+    },
+    {
+      "id": 4,
+      "nom": "Charmander",
+      "tipus": ["foc"],
+      "pes": "8.5 kg",
+      "altura": "0.6 m",
+      "estadistiques": {
+        "velocitat": 65,
+        "fortalesa": 52,
+        "precisio": 60,
+        "resistencia": 50
+      },
+      "moviments": [
+        {
+          "nom": "Esgarrapada",
+          "descripcio": "Ataca amb urpes esmolades",
+          "potencia": 40,
+          "contacte": true
+        },
+        {
+          "nom": "Ascua",
+          "descripcio": "Petit atac de foc que pot cremar l'oponent",
+          "potencia": 40,
+          "contacte": false
+        },
+        {
+          "nom": "Llança flames",
+          "descripcio": "Atac de foc potent que pot cremar l'oponent",
+          "potencia": 90,
+          "contacte": false
+        }
+      ],
+      "imatge": "https://www.wikidex.net/wiki/Charmander#/media/Archivo:Charmander.png",
+      "evolucions": [5, 6]
+    },
+    {
+      "id": 25,
+      "nom": "Pikachu",
+      "tipus": ["elèctric"],
+      "pes": "6.0 kg",
+      "altura": "0.4 m",
+      "estadistiques": {
+        "velocitat": 90,
+        "fortalesa": 55,
+        "precisio": 50,
+        "resistencia": 50
+      },
+      "moviments": [
+        {
+          "nom": "Cop de cua",
+          "descripcio": "Ataca amb la cua per reduir la defensa de l'oponent",
+          "potencia": 30,
+          "contacte": true
+        },
+        {
+          "nom": "Impactrueno",
+          "descripcio": "Atac elèctric que pot paralitzar l'oponent",
+          "potencia": 40,
+          "contacte": false
+        },
+        {
+          "nom": "Llamp",
+          "descripcio": "Poderós atac elèctric amb alta precisió",
+          "potencia": 90,
+          "contacte": false
+        }
+      ],
+      "imatge": "https://www.wikidex.net/wiki/Pikachu#/media/Archivo:Pikachu.png",
+      "evolucions": [26]
+    },
+    {
+      "id": 7,
+      "nom": "Squirtle",
+      "tipus": ["aigua"],
+      "pes": "9.0 kg",
+      "altura": "0.5 m",
+      "estadistiques": {
+        "velocitat": 43,
+        "fortalesa": 65,
+        "precisio": 50,
+        "resistencia": 64
+      },
+      "moviments": [
+        {
+          "nom": "Placatge",
+          "descripcio": "Un atac físic bàsic que causa dany moderat",
+          "potencia": 40,
+          "contacte": true
+        },
+        {
+          "nom": "Pistola aigua",
+          "descripcio": "Atac d'aigua bàsic que mai falla",
+          "potencia": 40,
+          "contacte": false
+        },
+        {
+          "nom": "Bomba aigua",
+          "descripcio": "Poderós atac d'aigua amb menor precisió",
+          "potencia": 110,
+          "contacte": false
+        }
+      ],
+      "imatge": "https://www.wikidex.net/wiki/Squirtle#/media/Archivo:Squirtle.png",
+      "evolucions": [8, 9]
+    }
+  ]
+}

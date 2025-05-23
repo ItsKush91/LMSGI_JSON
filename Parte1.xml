@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PcStore>
+    <pcs category="desktop">
+            <pc category="LowEnd">
+                <model>Omen h1 3000</model>
+                <price >599</price>
+                <year>2018</year>
+                <cpu>Intel xeon xxx</cpu>
+            </pc>
+            <pc category="LowEnd">
+                <model>Asus h3 125hx</model>
+                <price>649</price>
+                <year>2017</year>
+                <cpu>Amd ryzen 7 3600</cpu>
+            </pc>
+            <pc category="MidTier">
+                <model>SkyTech Blaze Gaming Pc</model>
+                <price>1199</price>
+                <year>2018</year>
+                <cpu>Intel xeon xxx</cpu>
+            </pc>
+            <pc category="MidTier">
+                <model>MSI Gaming v1</model>
+                <price>1300</price>
+                <year>2022</year>
+                <cpu>Amd ryzen 7 5700</cpu>
+            </pc>
+            <pc category="HighEnd">
+                <model>Alienware Aurora R16</model>
+                <price>2800</price>
+                <year>2023</year>
+                <cpu>Intel core i7 13gen</cpu>
+            </pc>
+            <pc category="HighEnd">
+                <model>MSI Infinite RS 13th Gen</model>
+                <price>3999</price>
+                <year>2024</year>
+                <cpu>Intel core i9-14900K</cpu>
+            </pc>
+    </pcs>
+    <peripheral>
+        <Product id="AU001" disponible="true">
+            <name>SteelSeries Arctis 7 Wireless</name>
+            <price moneda="EUR">179</price>
+            <stock>25</stock>
+            <image>https://example.com/images/steelseries-arctis7.jpg</image>
+            <features>
+                <connection>Wireless 2.4GHz</connection>
+                <battery>24 hores</battery>
+            </features>
+        </Product>
+        <Product id="MO001" disponible="true">
+            <name>ASUS ROG Swift PG279Q</name>
+            <price moneda="EUR">599</price>
+            <stock>En estoc</stock>
+            <image>https://example.com/images/asus-rog-swift.jpg</image>
+            <features>
+                <resolution>2560x1440</resolution>
+                <refresh_rate>165Hz</refresh_rate>
+            </features>
+        </Product>
+    </peripheral>
+</PcStore>
